@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>About</title>
+  </head>
+  <body>
+
+    {{!-- {{>navbar}} --}}
+
+    <header class="header">
+        <a href="#" class="logo"><img src="/image/logo1.png" alt="Main logo"></a>
+
+      <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="/" class="active">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+            <a href="/project">Project</a>
+            <a href="/services">Services</a>
+
+        </nav>
+    </header>
+
+    {{! about section desing }}
+
+    <section class="about" id="about">
+      <div class="about-image">
+        <img src="/image/3.jpg" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Web Developer</h3>
+        <p>Hello ! and Welcome to my Personal Portfolio Website My Name is
+          <b> Anil Thakur</b>
+          and I'am a frontend developer having knowledge of html, css,
+          javascript, bootstrap, wordpress, photoshop. and basic knowledge of
+          Node js, Express js, and MongoDB.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    {{! typed js  }}
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    {{! scroll reveal }}
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="/javascript/index.js"></script>
+
+  </body>
+</html>
